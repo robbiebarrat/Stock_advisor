@@ -1,7 +1,7 @@
 # Stock_advisor
-This program uses the Yahoo_finance api for python to get basic stock info for a company the user inputs, and then looks at how the company's stock has been doing to give the user advice on whether they should buy some of that company or not.
+Written in python 2.7, this program uses the Yahoo_finance api for python to get stock-related info about a company the user inputs, and then looks at how the company's stock has been doing to give the user advice on whether they should buy some of that company or not.
 
-The input/output is pretty self explanitory:
+The input/output is pretty self explanatory:
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -31,3 +31,5 @@ This stock looks like it isn't doing well... I wouldn't invest in it.
 Alright, goodbye!
 Press the 'return' or 'enter' key to exit...
 ---------------------------------------------------------------------------------------------------------------------
+
+Also, by using this program you agree to take full responsibility if you lose any money by following this program's advice. I never said that the advice it gives would be accurate, so don't sue me if you invest all your money in the stocks it recomends and then lose your house.
