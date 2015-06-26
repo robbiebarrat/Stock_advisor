@@ -270,7 +270,7 @@ def decision(today, oneday, twoday, threeday, twohundredavg, fiftyavg):
         print "There is a %" + str(abs(float(threeday) / float(today))) + " difference between the price three days ago and today's price."
         negative += 2
     elif threeday > today:
-        print "There have been some inconsistancies with the pattern, but today's price is lower than three day's ago."
+        print "There have been some inconsistencies with the pattern, but today's price is lower than three day's ago."
         print "There is a %" + str(abs(float(threeday) / float(today))) + " difference between the price three days ago and today's price."
         negative += 1
     if threeday < twoday and twoday < oneday and oneday < today:
@@ -278,7 +278,7 @@ def decision(today, oneday, twoday, threeday, twohundredavg, fiftyavg):
         print "There is a %" + str(abs(float(threeday) / float(today))) + " difference between the price three days ago and today's price."
         positive += 2
     elif threeday < today:
-        print "There have been some inconsistancies with the pattern, but today's price is higher than three day's ago."
+        print "There have been some inconsistencies with the pattern, but today's price is higher than three day's ago."
         print "There is a %" + str(abs(float(threeday) / float(today))) + " difference between the price three days ago and today's price."
         positive += 1
 
